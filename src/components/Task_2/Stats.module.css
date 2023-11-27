@@ -1,0 +1,19 @@
+.item {
+  list-style: none;
+  /* background-color: blueviolet; */
+  padding: 10px 10px;
+  border: 1px solid #dfd8d8;
+  width: 40px;
+  justify-content: space-around;
+  display: grid;
+  justify-items: center;
+}
+.label {
+  font-size: 12px;
+  display: block;
+  color: white;
+}
+.percentage {
+  color: white;
+  font-weight: bold;
+}
