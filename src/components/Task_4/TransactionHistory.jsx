@@ -5,7 +5,7 @@ export const TransactionHistory = ({ transactions }) => {
   return (
     <div className={css.container}>
       <table className={css.table}>
-        <thead>
+        <thead className={css.thead}>
           <tr>
             <th>Type</th>
             <th>Amount</th>
